@@ -1,0 +1,71 @@
+.listItem {
+    background-color: white;
+    border: 1px solid black;
+    height: 100%;
+    width: 350px;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 3px;
+    display: flex;
+}
+
+.box-input {
+    height: 100%;
+    width: 330px;
+    display: flex;
+    flex-direction: row;
+    direction:rtl;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.delete {
+    margin-left: 4px;
+    background: rgb(216, 43, 95);
+    color: white;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.edit {
+    background: rgb(226, 176, 67);
+    color: white;
+    border-radius: 3px;
+    border-style: none;
+}
+
+input {
+    direction: rtl;
+    box-sizing: border-box;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.save {
+    background: lightgreen;
+    color: white;
+    border-radius: 3px;
+    border-style: none;
+    margin-right: 2px;
+}
+
+.delete, .edit, .save {
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 40px;
+    height: 25px;
+    transition: 200ms;
+}
+
+.delete:active, .edit:active, .save:active {
+    box-shadow: 0 0 10px 5px gray;
+    width: 35px;
+    height: 20px;
+}
+
+div {
+    overflow: visible;
+}
